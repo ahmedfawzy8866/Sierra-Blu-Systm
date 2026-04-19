@@ -40,7 +40,7 @@ npm run build
 | Event | Workflow | What it does |
 |-------|----------|-------------|
 | Push to `main` or any PR | `ci.yml` | Install (`npm ci`), test, build |
-| Manual trigger only | `deploy.yml` | Build + deploy to Azure App Service |
+| Manual trigger only | `azure-webapps-node.yml` | Build + deploy to Azure App Service |
 
 ### Lockfile strategy
 
@@ -60,7 +60,7 @@ Required repository secrets (Settings → Secrets → Actions):
 |--------|-------------|
 | `AZURE_WEBAPP_PUBLISH_PROFILE` | Publish profile downloaded from the Azure Portal |
 
-Required configuration (edit `.github/workflows/deploy.yml`):
+Required configuration (edit `.github/workflows/azure-webapps-node.yml`):
 
 | Variable | Description |
 |----------|-------------|
