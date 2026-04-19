@@ -1,0 +1,19 @@
+{
+  "name": "sierra-blu-systm",
+  "version": "0.1.0",
+  "description": "Sierra Blu System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"No build step configured yet\" && exit 0",
+    "test": "echo \"No tests configured yet\" && exit 0",
+    "lint": "echo \"No linter configured yet\" && exit 0"
+  },
+  "engines": {
+    "node": ">=20.x",
+    "npm": ">=10.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
